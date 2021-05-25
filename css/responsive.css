@@ -1,0 +1,21 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    #section-1 {
+        display: none !important;
+    }
+    .map-sectio {
+        border-radius: 10px;
+        box-shadow: 5px 28px 92px 10px #35353547;
+        overflow: auto;
+        margin-bottom: 31px;
+        margin: 10px 0;
+    }
+    /*.map-sectio{
+        margin :20px 0;
+    }*/
+}
+
+@media (min-width: 767px) {
+    #section-2 {
+        display: none !important;
+    }
+}

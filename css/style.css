@@ -1,0 +1,449 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-gap {
+    padding: 60px 0;
+}
+
+.menu-bar{
+    position: fixed;
+    content: '';
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+.menu-bar .navbar{
+    background-color: #fff !important;
+}
+.navbar-brand img{
+    height: 50px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #007cc7;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: #0d6efd;
+    color: #fff;
+}
+.carousel-item img{
+    height:100vh;
+}
+.slider-main .carousel-caption{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    text-align: inherit;
+    width: 48%;
+}
+.carousel-caption h3{
+    color:#8c8c8c;
+    font-size: 44px;
+}
+.carousel-caption h3 span{
+    color: #007CC7;
+    font-size: 50px;
+}
+.button-all{
+    margin-top: 30px;
+}
+.button-all a{
+    background: #fff;
+    text-decoration: none;
+    border: 1px solid #d2d2d2;
+    padding: 10px 20px;
+    color: #007cc7;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.2s ease-in-out;
+}
+.button-all a:hover{
+    background: #007CC7;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+.button-all.second a{
+    color: #fff;
+    background:#007cc7;
+    transition: 0.2s ease-in-out;
+}
+.button-all.second a:hover{
+    background: #fff;
+    color: #007CC7;
+    transition: 0.2s ease-in-out;
+}
+.head-title{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.head-title h3{
+    font-size: 32px;
+    color: #3b69b3;
+    letter-spacing: 1px;
+}
+.head-title p{
+    font-size: 20px;
+    color: #007cc7;
+    letter-spacing: 1px;
+}
+.branding-section{
+    background-color: ghostwhite;
+    position: relative;
+}
+.brand-tab{
+    text-align: center;
+}
+.brand-img img{
+    height: 140px;
+    padding: 15px;
+    border: 1px solid #ececec;
+    border-radius: 25px;
+    box-shadow: -6px 8px 5px -5px rgb(203 203 203 / 99%);
+    margin-bottom: 20px;
+}
+.brand-inner h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #797979;
+}
+.brand-inner p{
+    font-size: 14px;
+    padding: 0 30px;
+}
+.gradient-gap{
+    padding: 30px 0;
+}
+.gradient-section{
+    background-image: url("../Images/Background\ Transition-1.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gr-text h3{
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.brand-head h3{
+    font-size: 50px;
+    color: 007CC7;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.brand-btn button{
+    background: #007CC7;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 35px;
+    border-radius: 15px;
+    border-color: #d2d2d2 !important;
+    margin-top: 10px;
+}
+.brand-text{
+    margin:16px 0;
+}
+.brand-text p{
+    font-size: 20px;
+    color: #8c8c8c;
+    margin: 0;
+}
+/* .left-text h3{
+    color: #007CC7;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.left-text h3 span{ 
+    font-size: 36px;
+} */
+/* .capture-section{
+    position: relative;
+}
+.capture-right .capture-img {
+    position: absolute;
+    content: "";
+    height: 350px;
+    width: 50%;
+    top: 0;
+    right: 0;
+    text-align: end;
+} */
+/* .capture-right .capture-img img{
+    height: 450px;
+} */
+
+.gradient-section-1{
+    background-image: url("../Images/Background\ Transition-2.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.appear-head{
+    position: relative;
+}
+.appear-head h3{
+    color: #007CC7;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.appear-head p{
+    font-size: 22px;
+    color: #797979;
+}
+.video-section{
+    margin: 50px 0 ;
+} 
+.gradient-section-2{
+    background-image: url("../Images/Background\ Transition-3.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gradient-section-3{
+    background-image: url("../Images/Background\ Transition-4.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer{
+    background:rgb(18 35 46) ;
+}
+.reach-section {
+    margin-top: 50px;
+}
+.social-handlar ul ,.reach-section ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.social-handlar ul li{
+    color: #fff;
+    padding: 0 10px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.social-handlar ul li a img{
+    height: 30px;
+}
+.reach-section ul li{
+    background: #fff;
+    padding: 12px 30px;
+    margin: 0 10px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    width: 25%;
+    text-align: center;
+}
+.reach-section ul li a{
+    text-decoration: none;
+    color: #111;
+}
+.copy-footer{
+    text-align: center;
+    padding: 10px 0;
+    background: #203647;
+}
+.copy-footer p{
+    padding: 0;
+    color: #fff;
+    margin: 0;
+    font-size: 11px; 
+}
+.index-contact{
+    padding-top:30px;
+    position: relative;
+}
+.abt-inner h3{
+    font-size: 25px;
+    color: #929292;
+} 
+.abt-inner h4{
+    font-size: 25px;
+    color: #929292;
+    margin-top:20px;
+}
+.set{
+    display: inline-grid;
+    align-items: center;
+}
+.appear-head.team h3{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.team-name h4{
+    color: #007CC7;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+} 
+.team-name{
+    margin-top: 20px;
+}
+.team-name p{  
+     margin: 0;
+    font-size: 14px;
+    color: #868686;
+}
+.team-img img{
+    height: 350px;
+}
+.teams-text p{
+    text-align: center;
+}
+.connect-me h3{
+    text-align: center;
+    font-size: 20px;
+}
+.connect-me ul{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+.connect-me ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.connect-me ul li a img{
+    height: 30px;
+}
+.carousel-control-prev,.carousel-control-next{
+    background: transparent !important;
+    border: none !important;
+}
+.pack-icons i{
+    color: #111;
+    font-size: 35px;
+}
+.teams-text p{
+    padding: 20px 50px;
+}
+.place-left{
+    text-align: center;
+    color: #8c8c8c;
+    padding: 20px;
+    border: 1px solid #d2d2d2;
+    border-radius: 30px;   
+}
+.place-left h3{
+    font-size: 28px;
+}
+.place-left h3 span{
+    font-weight: 600;
+    color: #717171; 
+}
+.place-right{
+    border: 4px solid #0d6efd;
+    border-radius: 76px; 
+}
+.right-img{
+    text-align: end;
+}
+.br-img img{
+    height: 280px;
+}
+.form-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form-section form input{
+    border: 1px solid #d2d2d2;
+    padding: 5px 0;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-head h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #9a9a9a;
+    margin-bottom: 20px;
+}
+ 
+.icon-bar a{
+    background-color: ghostwhite;
+    color: #007CC7;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #007CC7;
+    position: absolute;
+    right:0;
+    top: 50%;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+  text-orientation: upright;
+  transition: 0.2s ease-in-out;
+}
+.icon-bar a:hover{
+    background-color: #007CC7;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.place-left {
+    position: absolute;
+    padding: 15px;
+    border: 1px solid #d2d2d2;
+    border-radius: 20px;
+    background: #fff;
+    z-index: 9;
+    left: 0;
+    top: 22%;
+    transform: translate(100%, 0);
+}
+
+.place-left h3 {
+    color: #8b8b8b;
+    text-align: center;
+}
+
+.place-left h3 span {
+    font-weight: 600;
+    color: #666666;
+}
+
+.right-img-sec img {
+    height: 300px;
+}
+
+.place-right {
+    position: relative;
+    border: 4px solid blue;
+    border-radius: 54px;
+    overflow: hidden;
+}
+
+.right-para p {
+    font-size: 25px;
+    text-align: right;
+    padding-right: 50px;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+    background-color: #111 ;
+  }
